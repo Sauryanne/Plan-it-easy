@@ -1,40 +1,42 @@
 # Plan-it-easy
 
-> Application de planification intelligente adaptée au profil cognitif de l'utilisateur.
+Application web de planification intelligente basée sur le profil cognitif.
 
-## 📌 À propos du projet
+## À propos du projet
 
-**Plan-it-easy** est une application conçue pour optimiser la gestion du temps et la réalisation de tâches quotidiennes. L'application adapte l'organisation du planning en fonction du profil cognitif de l'utilisateur et permet un suivi précis du niveau d'avancement et de la charge de travail.
+**Plan-it-easy** aide à optimiser la gestion du temps et l'exécution des tâches quotidiennes. L'application adapte l'organisation du planning en fonction du profil cognitif de l'utilisateur tout en assurant un suivi précis de l'avancement et du niveau de charge.
 
-## 🚀 Fonctionnalités
+> **Contexte :** Ce travail s'appuie sur les recherches et la maquette réalisées en équipe lors d'un projet universitaire « Transpromotion ». Je poursuis aujourd'hui ce projet à titre personnel pour en développer la version fonctionnelle.
 
-### Réalisées / En cours
-- [x] Modélisation du profil cognitif utilisateur
-- [x] Création et suivi des tâches à effectuer
-- [x] Visualisation du planning adapté
+## Fonctionnalités
 
-### Roadmap (Prochaines étapes)
-- [ ] Perfectionnement de l'algorithme de planification
-- [ ] Ajout de métriques de suivi du niveau de fatigue / concentration
-- [ ] Amélioration de l'interface utilisateur
+### Réalisées
+- Modélisation du profil cognitif utilisateur
+- Création et suivi des tâches à effectuer
+- Visualisation du planning adapté
 
-## 🛠️ Stack technique
+### En cours / Roadmap
+- Perfectionnement de l'algorithme de planification
+- Suivi visuel de la charge de travail
+- Amélioration de l'ergonomie globale
 
-- **Frontend :** [ex: React, Vue.js, Flutter, HTML/CSS...]
-- **Backend :** [ex: Node.js, Python/FastAPI, Java...]
-- **Base de données :** [ex: PostgreSQL, SQLite, MongoDB...]
+## Stack technique
 
-## ⚙️ Installation et lancement
+- **Frontend :** React
+- **Outil de build :** Vite
+- **Langage :** JavaScript
+
+## Installation et lancement local
 
 ```bash
-# Cloner le dépôt
+# Cloner le projet
 git clone [https://github.com/Sauryanne/Plan-it-easy.git](https://github.com/Sauryanne/Plan-it-easy.git)
 
-# Accéder au dossier
+# Entrer dans le dossier
 cd Plan-it-easy
 
 # Installer les dépendances
-[ex: npm install ou pip install -r requirements.txt]
+npm install
 
-# Lancer le projet
-[ex: npm start ou python main.py]
+# Lancer le serveur de développement
+npm run dev
