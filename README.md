@@ -1,16 +1,40 @@
-# React + Vite
+# Plan-it-easy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Application de planification intelligente adaptée au profil cognitif de l'utilisateur.
 
-Currently, two official plugins are available:
+## 📌 À propos du projet
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Plan-it-easy** est une application conçue pour optimiser la gestion du temps et la réalisation de tâches quotidiennes. L'application adapte l'organisation du planning en fonction du profil cognitif de l'utilisateur et permet un suivi précis du niveau d'avancement et de la charge de travail.
 
-## React Compiler
+## 🚀 Fonctionnalités
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Réalisées / En cours
+- [x] Modélisation du profil cognitif utilisateur
+- [x] Création et suivi des tâches à effectuer
+- [x] Visualisation du planning adapté
 
-## Expanding the ESLint configuration
+### Roadmap (Prochaines étapes)
+- [ ] Perfectionnement de l'algorithme de planification
+- [ ] Ajout de métriques de suivi du niveau de fatigue / concentration
+- [ ] Amélioration de l'interface utilisateur
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Stack technique
+
+- **Frontend :** [ex: React, Vue.js, Flutter, HTML/CSS...]
+- **Backend :** [ex: Node.js, Python/FastAPI, Java...]
+- **Base de données :** [ex: PostgreSQL, SQLite, MongoDB...]
+
+## ⚙️ Installation et lancement
+
+```bash
+# Cloner le dépôt
+git clone [https://github.com/Sauryanne/Plan-it-easy.git](https://github.com/Sauryanne/Plan-it-easy.git)
+
+# Accéder au dossier
+cd Plan-it-easy
+
+# Installer les dépendances
+[ex: npm install ou pip install -r requirements.txt]
+
+# Lancer le projet
+[ex: npm start ou python main.py]
